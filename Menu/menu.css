@@ -10,6 +10,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    border-right: 10px solid #000;
 }
 
 .logo {
