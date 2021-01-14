@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Do You Love Me</title>
+  </head>
+  <body>
+   <audio autoplay controls  id="playAudio">
+      <source src="img/music.mp3">
+    </audio>
+    <span id="audio"><i class="fal fa-play-circle"></i></span>
+      <div class="modal">
+          <div class="modal-child">
+            <span class="far fa-times " onclick="yesClick()"></span>
+              <h1>Account: 107867631753</h1>
+              <p>User: NGUYEN XUAN QUANG</p>
+              <p>Bank: VIETTINBANK</p>
+
+              <p class="note text-center">Mượn hoài không trả, đòi hoài ngại quá!</p>
+          </div>
+      </div>
+    <canvas id="canvas"></canvas>
+    <div class="container wrapper">
+       <div class="row">
+        <h1 class="question">Trả nợ  cho tao!!!</h1>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-6 text-center"><button class="btn box" onclick="yesClick()">Trả nợ</button></div>
+                <div class="col-6 text-center"><button class="btn btn-danger box2"  id="btnNo" onmouseover="noHover()">Mai trả</button></div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
